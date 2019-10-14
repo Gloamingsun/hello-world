@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*GLOBAL STYLES*/
+a{
+    text-decoration: none;
+
+}
+
+
+/*NAVIGATION BAR*/
+header>nav{
+    display: flex;
+    
+}
+/*MAIN BODY*/
+/*FIRST PAGE*/
+/*SECOND PAGE*/
+/*THIRD PAGE*/
+/*FOOTER*/
+/*ANIMATION*/
+/*HOVER EFFECT*/
+/**/
+/**/
