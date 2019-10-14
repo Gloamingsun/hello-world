@@ -6,15 +6,56 @@
 /*GLOBAL STYLES*/
 a{
     text-decoration: none;
+    color: rgb(39, 114, 211);
 
+}
+li{
+    list-style-type: none;
+    padding: 0 10px;
 }
 
 
 /*NAVIGATION BAR*/
-header>nav{
-    display: flex;
-    
+header{
+    align-items: center;
 }
+header>nav{
+    margin: 1% 2%;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    min-height: 3%;
+    overflow: hidden;
+    width: 96%;
+
+}
+header>nav>.nav-bar>ul{
+    position: absolute;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+    overflow: hidden;
+    
+
+}
+header>nav>.login-container>.login{
+    border: 1px solid rgb(39, 114, 211);
+    padding: 0 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*MAIN BODY*/
 /*FIRST PAGE*/
 /*SECOND PAGE*/
