@@ -51,21 +51,120 @@ header>nav>.login-container>.login{
 header>nav>.login-container>.login>a{
     color: #fff;
 }
-
+header>nav>.nav-bar>ul>li:nth-child(1)>a:focus{
+    transition: 1s ease-in;
+}
 /*home*/
 body>home{
     position: absolute;
     top: 50px;
-    
-    
-    background-image: url('./rss/bg1.jpg');
+    width: 100%;
+    height: 100%;
+    background-image: url('/rss/bg1.jpg');
     background-size: cover;
+    background-attachment: fixed;
+    
     
 }
 body>home>div.container{
+    position: absolute;
+    left: 150px;
+    top: 50px;
     width: 400px;
+    height: 300px;
+    border: 4px solid rgb(204, 161, 18);
+    overflow: hidden;
 }
-/*FIRST PAGE*/
+body>home>div.container>h1{
+    position: absolute;
+    padding: 25px;
+}
+body>home>div.container>h1>span{
+    padding: 25px;
+    color: seagreen;
+}
+body>home>div.container>button{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    width: 180px;
+    transform: translate(-50%, -50%);
+    padding: 25px;
+    background: transparent;
+    border: 2px solid rgba(240, 105, 16, 0.616);
+}
+body>home>div.container>button>a{
+    text-decoration: none;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    color: rgb(20, 250, 226);
+}
+body>home>div.container2{
+    position: absolute;
+    left: 500px;
+    top: 250px;
+    width: 700px;
+    height: 300px;
+    border: 4px solid rgb(204, 161, 18);
+    overflow: hidden;
+}
+body>home>div.container2>h1{
+    padding: 25px 55px;
+    color: #888;
+}
+body>home>div.container2>button{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    width: 170px;
+    background: transparent;
+    border: 2px solid rgb(44, 100, 120);
+}
+body>home>div.container2>h1>span{
+    padding: 25px;
+    color: rgb(166, 61, 207);
+}
+body>home>div.container2>button>a{
+    font-size: 1.02rem;
+    letter-spacing: 2px;
+    color: rgb(20, 250, 226);
+
+}
+
+/*about PAGE*/
+about{
+    position: absolute;
+    top: 100%;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    background: rgb(190, 94, 35);
+    clip-path: polygon(0% 0%, 60% 6%, 100% 0%, 100% 100%, 40% 94%, 0% 100%);
+}
+about>.container3{
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background: transparent;
+    align-items: center;
+    
+}
+about>.container3>img{
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 30px;
+    padding: 0;
+    border-radius: 10px;
+    width: 100%;
+    
+    
+}
+
 /*SECOND PAGE*/
 /*THIRD PAGE*/
 /*FOOTER*/
