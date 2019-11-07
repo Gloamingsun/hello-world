@@ -56,13 +56,14 @@ header>nav>.login-container>.login>a{
 body>home{
     position: absolute;
     top: 50px;
-    width: 100%;
+    
+    
+    background-image: url('./rss/bg1.jpg');
     background-size: cover;
     
-    background-image: url('../rss/bg1,jpg');
 }
 body>home>div.container{
-
+    width: 400px;
 }
 /*FIRST PAGE*/
 /*SECOND PAGE*/
