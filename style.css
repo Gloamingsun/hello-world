@@ -16,6 +16,9 @@ li{
 
 
 /*NAVIGATION BAR*/
+header>nav>div.business>a{
+    font-size: 1.3rem;
+}
 header{
     align-items: center;
 }
@@ -42,21 +45,25 @@ header>nav>.nav-bar>ul{
 header>nav>.login-container>.login{
     border: 1px solid rgb(39, 114, 211);
     padding: 0 20px;
+    background: rgb(37, 141, 226);
+    border-radius: 50%;
+}
+header>nav>.login-container>.login>a{
+    color: #fff;
 }
 
+/*home*/
+body>home{
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    background-size: cover;
+    
+    background-image: url('../rss/bg1,jpg');
+}
+body>home>div.container{
 
-
-
-
-
-
-
-
-
-
-
-
-/*MAIN BODY*/
+}
 /*FIRST PAGE*/
 /*SECOND PAGE*/
 /*THIRD PAGE*/
