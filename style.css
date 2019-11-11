@@ -64,6 +64,7 @@ body>home{
     width: 100%;
     height: 100%;
     background-image: url('/rss/bg1.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     
@@ -92,7 +93,7 @@ body>home>div.container>button{
     left: 50%;
     width: 180px;
     transform: translate(-50%, -50%);
-    padding: 25px;
+    padding: 20px;
     background: transparent;
     border: 2px solid rgba(240, 105, 16, 0.616);
 }
@@ -111,6 +112,7 @@ body>home>div.container2{
     border: 4px solid rgb(204, 161, 18);
     overflow: hidden;
 }
+
 body>home>div.container2>h1{
     padding: 25px 55px;
     color: #888;
@@ -189,16 +191,154 @@ body>#abt>.container4>p{
 body>#abt>.container4>button{
     position: absolute;
     width: 150px;
-    background: linear-gradient(35deg, #efe9ae 0%, #ffac81 100%);
+    background: transparent;
     z-index: 1;
     padding: 10px;
     top: 71%;
     left: 23%;
     transform: translate(-50%, -50%);
-    border: 4px solid green;
+    border: 2px solid green;
     outline: 0;
+    font-size: 1.02rem;
+    letter-spacing: 2px;
+    color: rgb(20, 250, 226);
 
 }
+projects{
+    position: absolute;
+    top: 193%;
+    width: 100%;
+    height: 100%;
+    background-image: url('/rss/bg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    z-index: -1;
+    background-attachment: fixed;
+
+}
+projects>.grid-wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    height: 500px;
+    transform: translate(-50%, -50%);
+    grid-auto-flow: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: space-around;
+    background: rgba(181, 197, 181, 0.24);
+    border: 4px solid rgb(204, 161, 18);
+}
+projects>.grid-wrapper:nth-child(1)>.prjt-container>img:hover{
+    width: 255px;
+    transition: 0.2s ease-in-out;
+}
+projects>.grid-wrapper>.prjt-container{
+    position: relative;
+    width: 1fr;
+
+    
+}
+projects>.grid-wrapper>.prjt-container>img{
+    position: relative;
+    top: 16%;
+    left: 43%;
+    transform: translate(-50%,-50%);
+    width: 250px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 15px black;
+}
+projects>.grid-wrapper>.prjt-container>h3{
+    position: absolute;
+    text-align: center;
+    color: #ffac81;
+    font-size: 1.3rem;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 200px;
+    padding: 5px;
+    letter-spacing: 2px;
+}
+projects>.grid-wrapper>.prjt-container>p{
+    position: absolute;
+    text-align: center;
+    color: white;
+    line-height: 21px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-15%);
+    width: 220px;
+    padding: 30px;
+}
+projects>.grid-wrapper>.prjt-container>button{
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    padding: 10px;
+    background: transparent;
+    border: 2px solid rgb(44, 78, 230);
+    font-size: 1.02rem;
+    letter-spacing: 2px;
+    color: rgb(81, 248, 39);
+    outline: 0;
+}
+services{
+    position: absolute;
+    top: 293%;
+    width: 100%;
+    height: 75%;
+    background: rgb(100, 200, 100);
+}
+services>.srv-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    height: 90%;
+    background: rgb(190, 94, 35);
+    box-shadow: inset -1px -1px 5px black,inset 3px 3px 40px black;
+}
+services>.srv-container>.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 90%;
+    height: 90%;
+    background: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    box-shadow: 3px 3px 25px black;
+    justify-content: center;
+
+    
+}
+
+services>.srv-container>.content>.design{
+    
+    background: linear-gradient(-45deg,#efe9ae 0%,#ffac81 100%);
+
+}
+services>.srv-container>.content>.site-planning{
+    background: linear-gradient(45deg, #efe9ae 0%, #ffac81 100%);
+}
+services>.srv-container>.content>.logos{
+    background: linear-gradient(45deg,#ffac81 0%,#efe9ae 100%);
+}
+services>.srv-container>.content>.customer-support{
+    
+    background: linear-gradient(-45deg, #ffac81 0%, #efe9ae 100%)
+}
+
 
 /*SECOND PAGE*/
 /*THIRD PAGE*/
