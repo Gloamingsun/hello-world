@@ -316,7 +316,7 @@ services>.srv-container>.content{
     width: 90%;
     height: 90%;
     background: white;
-    display: grid;
+    
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     box-shadow: 3px 3px 25px black;
