@@ -317,8 +317,7 @@ services>.srv-container>.content{
     height: 90%;
     background: white;
     
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    display: flex;
     box-shadow: 3px 3px 25px black;
     justify-content: center;
     clip-path: polygon(0% 0%, 60% 6%, 100% 0%, 100% 100%, 40% 94%, 0% 100%);
